@@ -10,6 +10,7 @@ import org.spekframework.spek2.style.specification.describe
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 
+@SuppressWarnings("unchecked")
 object InfoSpec: Spek({
     describe("info endpoint") {
         var embeddedServer : EmbeddedServer = ApplicationContext.run(EmbeddedServer::class.java)

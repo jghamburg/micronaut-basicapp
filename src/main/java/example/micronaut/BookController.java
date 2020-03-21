@@ -47,6 +47,7 @@ public class BookController {
 
   @View("bookscreate")
   @Error(exception = ConstraintViolationException.class)
+  @SuppressWarnings("unchecked")
   public Map<String, Object> onSavedFailed(HttpRequest request, ConstraintViolationException ex) {
     final Map<String, Object> model = createModelWithBlankValues();
     model.put("errors", messageSource.violationsMessages(ex.getConstraintViolations()));
