@@ -1,0 +1,22 @@
+[
+  {
+    "name":"io.micronaut.views.velocity.$BeanConfiguration",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.micronaut.views.velocity.$VelocityFactory$GetVelocityEngine0DefinitionClass",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.micronaut.views.velocity.$VelocityFactoryDefinitionClass",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.micronaut.views.velocity.$VelocityViewsRendererConfigurationPropertiesDefinitionClass",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  },
+  {
+    "name":"io.micronaut.views.velocity.$VelocityViewsRendererDefinitionClass",
+    "methods":[{"name":"<init>","parameterTypes":[] }]
+  }
+]
